@@ -13,8 +13,7 @@ header {
   text-align: center;
   background-color: #CAD3C8;
   padding: 12px;
-  margin: 0;
-  width: 1000px;
+ 
 }
 header h1 {
 text-align: center;
@@ -58,8 +57,14 @@ button{
   padding: 4px;
   
 }
+#success {
+	background-color: green;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
 .container {
-  width: 1000px;
+  width: 500px;
   margin: 0 auto;
   padding: 15px;
 }

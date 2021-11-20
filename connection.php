@@ -12,14 +12,15 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <h1> Connexion</h1>
-   <form method="POST" action ="connection.php"></form>
-   <p>si tu n'es pas dejà inscris c'est par ici :
-     <br>
-       <a href="index.php">
-      Inscris-toi :)
-    </a>
-   </p>
+    <header>
+      <h1> Connexion</h1>
+    </header>
+
+    <div class= "container">
+      <p id="info" >Si tu n'es pas dejà inscris c'est par ici : <a href="index.php">Inscris-toi</a></p>
+      </p>
+      <div id="form">
+      <form method="POST" action ="connection.php">
   <table>
     <tr>
       <td>Email</td>
@@ -29,12 +30,12 @@
 			<td>Mot de passe</td>
 			<td><input type="password" name="password" placeholder="Ex : ********" required ></td>
 		</tr>
-
 	</table>
 				<div id="button">
 					<button type='submit'>Inscription</button>
         </div>
-    </tr>
-  </table>
+    </form>
+    </div>
+  </div>
 </body>
 </html>

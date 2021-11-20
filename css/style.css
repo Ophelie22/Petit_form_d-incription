@@ -52,6 +52,12 @@ button{
   text-align: center;
   margin-top: 5px;
 }
+#error{
+  color:#B33771;
+  text-align: center;
+  padding: 4px;
+  
+}
 .container {
   width: 1000px;
   margin: 0 auto;
